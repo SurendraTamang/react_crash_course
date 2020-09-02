@@ -4,7 +4,7 @@ import Greeting from './Components/HelloWorld'
 function App() {
   return (
     <div>
-      <Greeting />
+      <Greeting name="China" />
     </div>
   );
 }

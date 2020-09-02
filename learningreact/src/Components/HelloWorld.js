@@ -1,9 +1,9 @@
 import React from 'react'
 
 
-function greeting() {
+function greeting(props) {
     return (
-        <h1>Namaster Nepal</h1>
+        <h1>Namaster {props.name}</h1>
     )
 }
 
